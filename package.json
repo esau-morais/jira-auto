@@ -1,0 +1,10 @@
+{
+  "name": "jira-linear-auto",
+  "version": "1.0.0",
+  "repository": "https://github.com/esau-morais/jira-linear-auto.git",
+  "author": "esau-morais <esaumorais7@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@changesets/cli": "^2.27.1"
+  }
+}
