@@ -1,5 +1,11 @@
 # jira-linear-auto
 
+## 1.0.4
+
+### Patch Changes
+
+- [#18](https://github.com/esau-morais/jira-auto/pull/18) [`f0b12d5`](https://github.com/esau-morais/jira-auto/commit/f0b12d5eb72d3bb4d10d48e68c177b7dc7a752b1) Thanks [@esau-morais](https://github.com/esau-morais)! - add missing github token
+
 ## 1.0.3
 
 ### Patch Changes
