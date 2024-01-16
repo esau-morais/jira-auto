@@ -1,5 +1,11 @@
 # jira-linear-auto
 
+## 1.0.2
+
+### Patch Changes
+
+- [#12](https://github.com/esau-morais/jira-auto/pull/12) [`b9d7ef4`](https://github.com/esau-morais/jira-auto/commit/b9d7ef4d9ead1325b21a8f4c71f60ec3f69ffe0a) Thanks [@esau-morais](https://github.com/esau-morais)! - add publish
+
 ## 1.0.1
 
 ### Patch Changes
