@@ -1,0 +1,24 @@
+name: Sync GitHub and Jira release
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  jira_release:
+    timeout-minutes: 5
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+
+      - name: Get version from package.json
+        id: get-version
+        run: echo ::set-output name=VERSION::$(node -p "require('./package.json').version")
+
+      - name: Create Jira Release
+        uses: GeoWerkstatt/create-jira-release@v1
+        with:
+          jira-project-key: "ANY"
+          jira-automation-webhook: ${{ secrets.JIRA_AUTOMATION_WEBHOOK }}
+          build-version: v${{ steps.get-version.outputs.VERSION }}
