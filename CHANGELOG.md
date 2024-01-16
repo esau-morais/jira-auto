@@ -1,5 +1,11 @@
 # jira-linear-auto
 
+## 1.0.6
+
+### Patch Changes
+
+- [#22](https://github.com/esau-morais/jira-auto/pull/22) [`18d9b33`](https://github.com/esau-morais/jira-auto/commit/18d9b33bc8042646c2e0660563af66bf4187d5b1) Thanks [@esau-morais](https://github.com/esau-morais)! - add missing trigger
+
 ## 1.0.5
 
 ### Patch Changes
