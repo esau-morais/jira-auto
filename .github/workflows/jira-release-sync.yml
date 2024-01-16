@@ -1,7 +1,11 @@
 name: Sync GitHub and Jira release
 
+on:
+  release:
+    types: [created, published, released]
+
 jobs:
-  sync:
+  jira_release:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
