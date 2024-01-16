@@ -22,3 +22,5 @@ jobs:
           jira-project-key: "ANY"
           jira-automation-webhook: ${{ secrets.JIRA_AUTOMATION_WEBHOOK }}
           build-version: v${{ steps.get-version.outputs.VERSION }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
