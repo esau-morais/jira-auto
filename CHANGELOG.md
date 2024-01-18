@@ -1,5 +1,11 @@
 # jira-linear-auto
 
+## 1.0.8
+
+### Patch Changes
+
+- [#27](https://github.com/esau-morais/jira-auto/pull/27) [`db4f39c`](https://github.com/esau-morais/jira-auto/commit/db4f39c13c57f64036a4b0c3b8ef5ac6f3aad584) Thanks [@esau-morais](https://github.com/esau-morais)! - change release command
+
 ## 1.0.7
 
 ### Patch Changes
